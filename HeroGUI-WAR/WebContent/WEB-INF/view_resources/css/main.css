@@ -1,0 +1,47 @@
+@CHARSET "US-ASCII";
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#panel,#flip {
+	padding: 5px;
+	text-align: center;
+	background-color: #e5eecc;
+	border: solid 1px #c3c3c3;
+}
+
+#panel {
+	padding: 50px;
+	display: none;
+}
+
+#createHero_formdiv {
+	width: 100%;
+	text-align: center;
+	background-color: #b0c4de;
+}
+
+#createhero_formdiv_submit_td {
+	text-align: center;
+}
+
+.listhero {
+	color: red;
+}
+
+.herolisttable, .herolisttable_tr, .herolisttable_th, .herolisttable_td  {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.herolisttable_th {
+	height: 35px;
+    background-color: blue;
+    color: white;
+}
+
+tr, th, td {
+	text-align: center;
+	padding: 5px;
+}
